@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-CQRS", "2-CQRS", "{7A04D7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS", "CQRS\CQRS.csproj", "{B8579ADD-C3A5-4244-9FB0-836CD53BDECE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Infra", "3-Infra", "{E91CA429-0047-4077-B038-AC2F26026752}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra", "Infra\Infra.csproj", "{29C96B7B-3731-4F69-B3BD-80B6BD9FACBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{B8579ADD-C3A5-4244-9FB0-836CD53BDECE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8579ADD-C3A5-4244-9FB0-836CD53BDECE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8579ADD-C3A5-4244-9FB0-836CD53BDECE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29C96B7B-3731-4F69-B3BD-80B6BD9FACBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C96B7B-3731-4F69-B3BD-80B6BD9FACBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29C96B7B-3731-4F69-B3BD-80B6BD9FACBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C96B7B-3731-4F69-B3BD-80B6BD9FACBE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{0FA7C319-DEDC-4D65-AAAF-99D1EBECAA45} = {67E68101-0F7A-472D-A432-BCDF16E9E6AC}
 		{B8579ADD-C3A5-4244-9FB0-836CD53BDECE} = {7A04D7DB-5373-496D-9EB2-8F479BE5E529}
+		{29C96B7B-3731-4F69-B3BD-80B6BD9FACBE} = {E91CA429-0047-4077-B038-AC2F26026752}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {88E38C7E-E79E-4286-94DE-B901F93B08E4}
