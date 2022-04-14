@@ -22,6 +22,16 @@
         "runtime": {
           "lib/netstandard2.0/MediatR.Contracts.dll": {}
         }
+      },
+      "Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Infra.dll": {}
+        }
       }
     }
   },
@@ -55,10 +65,16 @@
         "mediatr.contracts.1.0.1.nupkg.sha512",
         "mediatr.contracts.nuspec"
       ]
+    },
+    "Infra/1.0.0": {
+      "type": "project",
+      "path": "../Infra/Infra.csproj",
+      "msbuildProject": "../Infra/Infra.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Infra >= 1.0.0",
       "MediatR >= 10.0.1"
     ]
   },
@@ -88,7 +104,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\USER\\source\\repos\\MediatorPoc\\Infra\\Infra.csproj": {
+              "projectPath": "C:\\Users\\USER\\source\\repos\\MediatorPoc\\Infra\\Infra.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

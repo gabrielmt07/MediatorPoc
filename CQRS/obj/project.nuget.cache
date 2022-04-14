@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WFqB01T0iVsXk7ctV5VxqI6qlk5l8U56HLIDgtKXY9FNWQ8WZkath0FdEXU+SmkhnU8u9vNdBiM3qOy3HCkpQA==",
+  "dgSpecHash": "47wDm28wcyYsqkaHL+gJyV0S/SlRujipuI9woVvJbznUHBFh0LzpZ0SgYrsB5TDZxM2BFyHj7SiItoNSMxiAfA==",
   "success": true,
   "projectFilePath": "C:\\Users\\USER\\source\\repos\\MediatorPoc\\CQRS\\CQRS.csproj",
   "expectedPackageFiles": [
