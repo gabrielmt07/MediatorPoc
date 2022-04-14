@@ -40,4 +40,5 @@ namespace Infra.Imp
         {
             await Task.Run(() => pessoas.Remove(id));
         }
+    }
 }
