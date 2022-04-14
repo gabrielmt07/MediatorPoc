@@ -1,12 +1,9 @@
 ﻿using CQRS.Commands.Command;
 using CQRS.Commands.Notifications;
-using CQRS.Domain;
 using Infra.Interface;
+using Infra.Models;
 using MediatR;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 

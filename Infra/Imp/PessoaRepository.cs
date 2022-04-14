@@ -1,5 +1,5 @@
-﻿using CQRS.Domain;
-using Infra.Interface;
+﻿using Infra.Interface;
+using Infra.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Infra.Imp
 {
-    class PessoaRepository : IRepository<Pessoa>
+    public class PessoaRepository : IRepository<Pessoa>
     {
         private static Dictionary<int, Pessoa> pessoas = new Dictionary<int, Pessoa>();
 
