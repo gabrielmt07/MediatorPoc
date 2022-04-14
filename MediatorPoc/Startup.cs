@@ -8,6 +8,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using System;
 
 namespace MediatorPoc
 {
@@ -26,7 +27,8 @@ namespace MediatorPoc
 
             services.AddControllers();
 
-            services.AddMediatR(typeof(Startup));
+            var assembly = AppDomain.CurrentDomain.Load("CQRS");
+            services.AddMediatR(assembly);
             services.AddSingleton<IRepository<Pessoa>, PessoaRepository>();
 
             services.AddSwaggerGen(c =>
